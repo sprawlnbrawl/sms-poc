@@ -1,0 +1,21 @@
+
+{
+    "app": {
+      "title": "Massary Portal"
+    },
+    "navigation": {
+      "explore": "Explore",
+      "profile": "Profile"
+    },
+    "admin": {
+      "userManagement": "User Management",
+      "contentManagement": "Content Management"
+    },
+    "auth": {
+      "logout": "Logout"
+    },
+    "theme": {
+      "light": "Light Mode",
+      "dark": "Dark Mode"
+    }
+  }

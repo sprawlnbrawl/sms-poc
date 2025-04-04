@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+/* @import "tailwindcss/preflight";
+@tailwind utilities; */
+@config "../tailwind.config.js";
+
+
+
+/* RTL support */
+html[dir="rtl"] * {
+  text-align: right;
+}
+
+html[dir="ltr"] * {
+  text-align: left;
+}
+
+/* Custom styles */
+.rtl-flip {
+  @apply rtl:rotate-180;
+}
+
+body {
+  @apply  bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark;
+}

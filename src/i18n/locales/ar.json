@@ -1,0 +1,20 @@
+{
+    "app": {
+      "title": "بوابة مساري"
+    },
+    "navigation": {
+      "explore": "استكشاف",
+      "profile": "الملف الشخصي"
+    },
+    "admin": {
+      "userManagement": "إدارة المستخدمين",
+      "contentManagement": "إدارة المحتوى"
+    },
+    "auth": {
+      "logout": "تسجيل الخروج"
+    },
+    "theme": {
+      "light": "الوضع النهاري",
+      "dark": "الوضع الليلي"
+    }
+  }

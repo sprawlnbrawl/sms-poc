@@ -1,0 +1,20 @@
+{
+    "app": {
+      "title": "Portail Massary"
+    },
+    "navigation": {
+      "explore": "Explorer",
+      "profile": "Profil"
+    },
+    "admin": {
+      "userManagement": "Gestion des utilisateurs",
+      "contentManagement": "Gestion du contenu"
+    },
+    "auth": {
+      "logout": "Déconnexion"
+    },
+    "theme": {
+      "light": "Mode clair",
+      "dark": "Mode sombre"
+    }
+  }

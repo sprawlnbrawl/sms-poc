@@ -1,4 +1,4 @@
-# SSMS-POC
+# SMS-POC
 
 A modern React application with TypeScript, TailwindCSS, i18n internationalization, and dark mode support.
 
@@ -22,8 +22,8 @@ A modern React application with TypeScript, TailwindCSS, i18n internationalizati
 
 1. Clone the repository:
 ```bash
-git clone not yet
-cd SMS-POC
+git clone https://github.com/ADERALLE/sms-poc
+cd sms-poc
 ```
 
 2. Install dependencies:
@@ -35,7 +35,7 @@ yarn install
 
 3. Start the development server:
 ```bash
-npm start
+npm run dev
 # or
 yarn start
 ```
@@ -62,7 +62,7 @@ src/
 
 ## Available Scripts
 
-- `npm start` - Runs the app in development mode
+- `npm run dev` - Runs the app in development mode
 - `npm test` - Launches the test runner
 - `npm run build` - Builds the app for production
 - `npm run eject` - Ejects from create-react-app

@@ -1,0 +1,33 @@
+{
+    "common": {
+      "filter": "Filter",
+      "searchTeachers": "Search teachers..."
+    },
+    "teacher": {
+      "name": "Name",
+      "email": "Email"
+    },
+    "attendance": {
+      "teacherAttendance": "Teacher Attendance",
+      "daily": "Daily View",
+      "monthly": "Monthly View",
+      "records": "Records",
+      "status": "Status",
+      "checkIn": "Check In",
+      "checkOut": "Check Out",
+      "actions": "Actions",
+      "present": "Present",
+      "absent": "Absent",
+      "late": "Late",
+      "excused": "Excused",
+      "legend": "Legend",
+      "weekend": "Weekend",
+      "summary": "Summary",
+      "totalTeachers": "Total Teachers",
+      "averageAttendance": "Average Attendance",
+      "workingDays": "Working Days",
+      "searchRecords": "Search records...",
+      "exportRecords": "Export Records",
+      "date": "Date"
+    }
+  }

@@ -1,0 +1,33 @@
+{
+    "common": {
+      "filter": "Filtrer",
+      "searchTeachers": "Rechercher des enseignants..."
+    },
+    "teacher": {
+      "name": "Nom",
+      "email": "Email"
+    },
+    "attendance": {
+      "teacherAttendance": "Présence des enseignants",
+      "daily": "Vue quotidienne",
+      "monthly": "Vue mensuelle",
+      "records": "Enregistrements",
+      "status": "Statut",
+      "checkIn": "Arrivée",
+      "checkOut": "Départ",
+      "actions": "Actions",
+      "present": "Présent(e)",
+      "absent": "Absent(e)",
+      "late": "En retard",
+      "excused": "Excusé(e)",
+      "legend": "Légende",
+      "weekend": "Weekend",
+      "summary": "Résumé",
+      "totalTeachers": "Total enseignants",
+      "averageAttendance": "Présence moyenne",
+      "workingDays": "Jours ouvrables",
+      "searchRecords": "Rechercher des enregistrements...",
+      "exportRecords": "Exporter les enregistrements",
+      "date": "Date"
+    }
+  }

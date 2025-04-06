@@ -13,6 +13,8 @@ import {
   Navigation,
   UserCircle,
   Bookmark,
+  School,
+  UserRoundIcon
 } from "lucide-react";
 import { Button } from "../ui/button";
 import { cn } from "../../lib/utils";
@@ -41,7 +43,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   const { t } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const prepaBacNavigation: NavItem[] = [
+  const normalNavigation: NavItem[] = [
     {
       name: t("navigation.explore"),
       href: "/explore",
@@ -55,6 +57,16 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
       href: "/admin/users",
       icon: Users,
     },
+    {
+      name: "liste des écoles",
+      href: "/school",
+      icon: School ,
+    },
+    {
+      name: "liste de présence",
+      href: "/teacher",
+      icon: UserRoundIcon,
+    }
   ];
 
   const handleLogout = async () => {
@@ -117,7 +129,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
 
         {isMobileMenuOpen && (
           <nav className="bg-white dark:bg-gray-800 border-b border-gray-200 dark:border-gray-700 py-3 px-4 shadow-inner">
-            <NavSection title={t("app.title")} items={prepaBacNavigation} />
+            <NavSection title={t("app.title")} items={normalNavigation} />
             {isAdmin && (
               <div className="mt-6">
                 <NavSection title="Admin" items={adminNavigation} />
@@ -158,7 +170,7 @@ export const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
             </a>
           </div>
           <nav className="flex-1 px-3 py-6 space-y-8 overflow-y-auto">
-            <NavSection title={t("app.title")} items={prepaBacNavigation} />
+            <NavSection title={t("app.title")} items={normalNavigation} />
             {isAdmin && <NavSection title="Admin" items={adminNavigation} />}
           </nav>
           <div className="flex flex-shrink-0 p-4 border-t dark:border-gray-700 bg-gray-50 dark:bg-gray-750 rounded-b-sm">

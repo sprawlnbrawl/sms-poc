@@ -8,6 +8,8 @@ import MainLayout from "../components/layout/MainLayout";
 // Pages
 const LoginPage = React.lazy(() => import("../pages/auth/LoginPage"));
 const ExplorePage = React.lazy(() => import("../pages/explore/ExplorePage"));
+const Schoolcrud = React.lazy(() => import("../pages/school/Schoolcrud"));
+const AttendenceRecording = React.lazy(() => import("../pages/teacher/Attendancerecording"));
 
 // Protected Route Component
 interface ProtectedRouteProps {
@@ -57,6 +59,36 @@ const AppRoutes: React.FC = () => {
             <ProtectedRoute>
               <MainLayout>
                 <ExplorePage />
+              </MainLayout>
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/explore"
+          element={
+            <ProtectedRoute>
+              <MainLayout>
+                <ExplorePage />
+              </MainLayout>
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/school"
+          element={
+            <ProtectedRoute>
+              <MainLayout>
+                <Schoolcrud />
+              </MainLayout>
+            </ProtectedRoute>
+          }
+        />
+<Route
+          path="/teacher"
+          element={
+            <ProtectedRoute>
+              <MainLayout>
+                <AttendenceRecording />
               </MainLayout>
             </ProtectedRoute>
           }
